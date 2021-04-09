@@ -1,0 +1,61 @@
+$sm: 767.98px;
+$md: 991.98px;
+
+body {
+  margin:20px
+}
+#investment {
+    background: lighten(grey, 45%);
+    padding-top: 50px;
+    padding-bottom: 100px;
+
+    p {
+        text-transform: uppercase;
+        color: gray;
+        margin-bottom: 10px;
+        font-size: 14px;
+        @media (max-width: $md) {
+                    margin-bottom:0px;
+                }
+        }
+
+    h1 {
+        font-weight: 700;
+        margin-bottom: 100px;
+        margin-top:5px;
+        font-size: 56px;
+        color: darken(blue, 38%)
+        }
+
+    .col-lg-2 {
+      @media (max-width: $md) {
+                  margin-bottom:20px;
+                }
+        .test {
+            width: 100%;
+            height: 100%;
+            background: white;
+            padding: 25px;
+            font-weight:700;
+            text-transform: uppercase;
+            @media (max-width: $md) {
+                    margin-bottom:20px;
+                  }
+           
+    
+            i {
+                display: block;
+                margin-bottom: 25px;
+                font-size: 25px;
+              
+            }
+        }
+        
+    }
+  
+    @for $i from 1 through 6 {
+        .col-lg-2:nth-child(#{$i}n) {
+            transition-delay: #{$i * 0.1}s;
+        }
+    }     
+}

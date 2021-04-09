@@ -1,0 +1,68 @@
+body {
+  margin: 20px;
+}
+
+#investment {
+  background: #f3f3f3;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+#investment p {
+  text-transform: uppercase;
+  color: gray;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+@media (max-width: 991.98px) {
+  #investment p {
+    margin-bottom: 0px;
+  }
+}
+#investment h1 {
+  font-weight: 700;
+  margin-bottom: 100px;
+  margin-top: 5px;
+  font-size: 56px;
+  color: #00003d;
+}
+@media (max-width: 991.98px) {
+  #investment .col-lg-2 {
+    margin-bottom: 20px;
+  }
+}
+#investment .col-lg-2 .test {
+  width: 100%;
+  height: 100%;
+  background: white;
+  padding: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+@media (max-width: 991.98px) {
+  #investment .col-lg-2 .test {
+    margin-bottom: 20px;
+  }
+}
+#investment .col-lg-2 .test i {
+  display: block;
+  margin-bottom: 25px;
+  font-size: 25px;
+}
+#investment .col-lg-2:nth-child(1n) {
+  transition-delay: 0.1s;
+}
+#investment .col-lg-2:nth-child(2n) {
+  transition-delay: 0.2s;
+}
+#investment .col-lg-2:nth-child(3n) {
+  transition-delay: 0.3s;
+}
+#investment .col-lg-2:nth-child(4n) {
+  transition-delay: 0.4s;
+}
+#investment .col-lg-2:nth-child(5n) {
+  transition-delay: 0.5s;
+}
+#investment .col-lg-2:nth-child(6n) {
+  transition-delay: 0.6s;
+}
